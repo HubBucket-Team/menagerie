@@ -3,5 +3,5 @@ output "zoo" {
 }
 
 output "pet" {
-  value = "${random_pet.my_pet.*.name}"
+  value = "${random_pet.my_pet.*.id}"
 }

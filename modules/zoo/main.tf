@@ -9,5 +9,5 @@ resource "random_pet" "module_pets" {
 }
 
 output "module_output" {
-  value = "${random_pet.module_pets.*.name}"
+  value = "${random_pet.module_pets.*.id}"
 }
